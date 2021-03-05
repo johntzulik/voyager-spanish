@@ -79,6 +79,7 @@ class ChineseTableSeeder extends Seeder
                 'order'      => 2,
             ])->save();
         }
+        
         // $menuItem = MenuItem::firstOrNew([
         //     'menu_id' => $menu_id,
         //     'title'   => __('artículo'),

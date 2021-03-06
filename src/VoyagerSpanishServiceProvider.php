@@ -8,7 +8,7 @@ use TCG\Voyager\Models\Menu;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
-use VoyagerSpanish\Policies\MenuPolicy;
+use Johntzulik\VoyagerSpanish\Policies\MenuPolicy;
 
 class VoyagerSpanishServiceProvider extends ServiceProvider
 {

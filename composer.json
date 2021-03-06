@@ -1,5 +1,11 @@
 {
-    "name": "johntzulik/voyager-spanish-lang",
+    "name": "johntzulik/voyager-spanish",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/johntzulik/voyager-spanish"
+        }
+    ],
     "description": "voyager spanish lang",
     "type": "library",
     "license": "MIT",
@@ -12,7 +18,7 @@
             "email": "isc.juan.morales@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "VoyagerSpanishLang\\": "src/"

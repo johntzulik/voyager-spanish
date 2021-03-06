@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 
 use TCG\Voyager\Models\Menu;
 use TCG\Voyager\Models\MenuItem;
-class ChineseTableSeeder extends Seeder
+class SpanishTableSeeder extends Seeder
 {
     public function run(){
         $menu = Menu::firstOrNew([

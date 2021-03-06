@@ -1,6 +1,6 @@
 <?php
 
-namespace VoyagerChineseLang\Policies;
+namespace VoyagerSpanishLang\Policies;
 
 use TCG\Voyager\Models\Menu;
 use TCG\Voyager\Contracts\User;

@@ -8,9 +8,9 @@ use TCG\Voyager\Models\Menu;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
-use VoyagerChineseLang\Policies\MenuPolicy;
+use VoyagerSpanishLang\Policies\MenuPolicy;
 
-class VoyagerChineseLangServiceProvider extends ServiceProvider
+class VoyagerSpanishLangServiceProvider extends ServiceProvider
 {
    
     protected $policies = [
@@ -25,7 +25,7 @@ class VoyagerChineseLangServiceProvider extends ServiceProvider
     {
         //
         app(Dispatcher::class)->listen('voyager.menu.display', function ($menu) {
-            $this->convertChinese($menu);
+            $this->convertSpanish($menu);
         });
         config(['app.locale' => 'es_MX']);
         config(['voyager.multilingual.enabled' => true]);
@@ -43,7 +43,7 @@ class VoyagerChineseLangServiceProvider extends ServiceProvider
         $this->registerPolicies();
     }
 
-    protected function convertChinese(Menu  $menu)
+    protected function convertSpanish(Menu  $menu)
     {
         if($menu->name == 'admin'){
             $menuName = 'admin-es_MX';

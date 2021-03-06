@@ -1,6 +1,6 @@
 <?php
 
-namespace VoyagerSpanish;
+namespace Johntzulik\VoyagerSpanish;
 
 use Illuminate\Events\Dispatcher;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;

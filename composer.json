@@ -21,13 +21,13 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "VoyagerSpanishLang\\": "src/"
+            "VoyagerSpanish\\": "src/"
         }
     }, 
     "extra": {
         "hook": {
             "providers": [
-                "VoyagerSpanishLang\\VoyagerSpanishLangServiceProvider"
+                "VoyagerSpanish\\VoyagerSpanishServiceProvider"
             ],
             "seeders":[
                 "database/seeders"

@@ -1,6 +1,6 @@
 <?php
 
-namespace VoyagerSpanishLang;
+namespace VoyagerSpanish;
 
 use Illuminate\Events\Dispatcher;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -8,9 +8,9 @@ use TCG\Voyager\Models\Menu;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Str;
-use VoyagerSpanishLang\Policies\MenuPolicy;
+use VoyagerSpanish\Policies\MenuPolicy;
 
-class VoyagerSpanishLangServiceProvider extends ServiceProvider
+class VoyagerSpanishServiceProvider extends ServiceProvider
 {
    
     protected $policies = [

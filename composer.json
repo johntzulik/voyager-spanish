@@ -1,8 +1,11 @@
 {
-    "name": "voyager-spanish",
-    "description": "voyager spanish-lang hook",
+    "name": "johntzulik/voyager-spanish-lang",
+    "description": "voyager spanish lang",
     "type": "library",
     "license": "MIT",
+    "require": {
+        "larapack/hooks": "^1.0"
+    },
     "authors": [
         {
             "name": "Juan Felipe",
@@ -10,14 +13,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "larapack/hooks": "^1.0.5"
-    },
     "autoload": {
         "psr-4": {
             "VoyagerSpanishLang\\": "src/"
         }
-    },
+    }, 
     "extra": {
         "hook": {
             "providers": [
